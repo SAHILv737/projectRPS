@@ -20,8 +20,7 @@ body {
 
 #heading {
     text-align: center;
-    font-size: 5vw;
-    margin-bottom: 2vw;
+    font-size: 80px;
     vertical-align: middle;
     align-items: center;
     justify-content: center;
@@ -49,12 +48,11 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin: 2vw 0; 
 }
 
 #rockImg {
-    width: 40vw;
-    height: auto;
+    width: 100px;
+    height: 100px;
     max-width: 200px;
     max-height: 200px;
     padding-left: 100px;
@@ -65,8 +63,8 @@ body {
 }
 
 #paperImg {
-    width: 40vw;
-    height: auto;
+    width: 100px;
+    height: 100px;
     max-width: 200px;
     max-height: 200px;
     padding-left: 95px;
@@ -77,8 +75,8 @@ body {
 }
 
 #scissorImg {
-    width: 40vw;
-    height: auto;
+    width: 100px;
+    height: 100px;
     max-width: 200px;
     max-height: 200px;
     padding-left: 105px;
@@ -90,9 +88,9 @@ body {
 
 #Rock {
     background-color: transparent;
-    font-size: 4vw;
+    font-size: 25px;
     width: 100px;
-    margin-top: 1vw;
+    margin-top: 15px;
     margin-left: 100px;
     font-weight: bolder;
     border-radius: 15px;
@@ -104,8 +102,8 @@ body {
 #Paper {
     background-color: transparent;
     width: 100px;
-    font-size: 4vw;
-    margin-top: 1vw;
+    font-size: 25px;
+    margin-top: 15px;
     margin-top: 15px;
     margin-left: 90px;
     font-weight: bolder;
@@ -117,9 +115,9 @@ body {
 
 #Scissor {
     background-color: transparent;
-    width: 4vw;
+    width: 105px;
     font-size: 25px;
-    margin-top: 1vw;
+    margin-top: 15px;
     margin-top: 15px;
     border-radius: 15px;
     margin-left: 100px;
@@ -130,7 +128,7 @@ body {
 }
 
 #final {
-    margin-top: 5vw;
+    margin-top: 150px;
     margin-left: 100px;
 }
 
@@ -164,19 +162,16 @@ body {
 #PC {
     display: flex;
     flex-direction: row;
-    margin: 2vw 0;
 }
 
 #CC {
     display: flex;
     flex-direction: row;
-    margin: 2vw 0;
 }
 
 #RST {
     display: flex;
     flex-direction: row;
-    margin: 2vw 0;
 }
 
 #playerChoice {
@@ -193,17 +188,3 @@ body {
     margin-left: 20px;
     font-weight: bolder;
 }
-@media only screen and (min-width: 600px) {
-            #images {
-                flex-direction: row;
-                justify-content: space-around;
-            }
-
-            .Img {
-                width: 100px;
-            }
-
-            button {
-                font-size: 16px; /* Changed font size to pixels */
-            }
-        }
